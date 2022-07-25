@@ -3,7 +3,7 @@ sap-survey-design-sqlは、主にエッジアプリケーションにおいて�
 sap-survey-design-sqlは、そのままクラウド環境におけるアプリケーションにも、適用可能です。
 
 ## 前提条件  
-sap-partner-sql は、SQL の SAP とのデータ連携にあたり、オンプレミス版である（＝クラウド版ではない）SAPC4HANA API の利用を前提としています。  
+sap-survey-design-sql は、SQL の SAP とのデータ連携にあたり、オンプレミス版である（＝クラウド版ではない）SAPC4HANA API の利用を前提としています。  
 クラウド版APIを利用する場合は、ご注意ください。  
 https://api.sap.com/api/surveydesign/overview    
 本レポジトリ の sql設定ファイルの内容は、上記URL の API 仕様を前提としています。 
