@@ -1,0 +1,32 @@
+CREATE TABLE `sap_survey_design_data`
+(
+	`ID`                               varchar(35) NOT NULL,
+	`ObjectID`                         varchar(70) DEFAULT NULL,
+	`Version`                          varchar(32) DEFAULT NULL,
+	`Name`                             varchar(255) DEFAULT NULL,
+	`NameLanguageCode`                 varchar(2) DEFAULT NULL,
+	`NameLanguageCodeText`             varchar(80) DEFAULT NULL,
+	`TypeCode`                         varchar(2) DEFAULT NULL,
+	`TypeCodeText`                     varchar(80) DEFAULT NULL,
+	`CategoryCode`                     varchar(3) DEFAULT NULL,
+	`CategoryCodeText`                 varchar(80) DEFAULT NULL,
+	`ValidFromDate`                    varchar(130) DEFAULT NULL,
+	`ValidToDate`                      varchar(130) DEFAULT NULL,
+	`LifeCycleStatusCode`              varchar(2) DEFAULT NULL,
+	`LifeCycleStatusCodeText`          varchar(80) DEFAULT NULL,
+	`PreviousAnswersIndicator`         tinyint(1) DEFAULT NULL,       
+	`PreviousRuntimeProductsIndicator` tinyint(1) DEFAULT NULL,       
+	`MatrixViewIndicator`              tinyint(1) DEFAULT NULL,       
+	`PaginationIndicator`              tinyint(1) DEFAULT NULL,       
+	`IncludeProductListIndicator`      tinyint(1) DEFAULT NULL,       
+	`SalesOrganisationID`              varchar(20) DEFAULT NULL,
+	`ServiceOrganisationID`            varchar(20) DEFAULT NULL,
+	`EntityLastChangedOn`              varchar(130) DEFAULT NULL,
+	`ETag`                             varchar(130) DEFAULT NULL,
+	`TotalMaximumScoreValue`           varchar(80) DEFAULT NULL,
+	`TotalMinimumScoreValue`           varchar(80) DEFAULT NULL,
+	`SurveyCreationDateTime`           varchar(130) DEFAULT NULL,
+	`SurveyCompetitor`                 varchar(80) DEFAULT NULL,
+	PRIMARY KEY(`ID`)
+) ENGINE = InnoDB
+ DEFAULT CHARSET = utf8mb4
